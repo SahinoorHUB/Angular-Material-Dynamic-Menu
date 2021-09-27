@@ -1,0 +1,442 @@
+{
+    "errorCode": "0",
+    "messageText": "Success",
+    "monoMenu": [{
+            "id": 11,
+            "name": "Main",
+            "action": "/"
+        },
+        {
+            "id": 11,
+            "name": "User Config",
+            "action": "/",
+            "diMenu": [{
+                    "id": 11,
+                    "monoMenuId": 0,
+                    "name": "Role",
+                    "action": "/",
+                    "triMenu": [{
+                            "id": 20,
+                            "name": "Edit Role",
+                            "action": "/role/role-list",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 21,
+                            "name": "Role-Access",
+                            "action": "/role/role-access",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 87,
+                            "name": "Add Role",
+                            "action": "/role/add-role",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "monoMenuId": 0,
+                    "name": "Group",
+                    "action": "/",
+                    "triMenu": [{
+                            "id": 22,
+                            "name": "Add Group",
+                            "action": "/group/add-group",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 23,
+                            "name": "Edit Group",
+                            "action": "/group/group-list",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "monoMenuId": 0,
+                    "name": "User",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 24,
+                        "name": "User Provisioning",
+                        "action": "/user/app-app-user-provision-list",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Dock-Assignment",
+            "action": "/",
+            "diMenu": [{
+                    "id": 89,
+                    "monoMenuId": 0,
+                    "name": "Assigned List",
+                    "action": "/dock-assignment/assigned",
+                    "triMenu": [
+
+                    ]
+                },
+                {
+                    "id": 90,
+                    "monoMenuId": 0,
+                    "name": "Assign Dock",
+                    "action": "/dock-assignment/assign",
+                    "triMenu": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "name": "Dock-Appointment",
+            "action": "/",
+            "diMenu": [{
+                    "id": 103,
+                    "monoMenuId": 0,
+                    "name": "Reserved List",
+                    "action": "/dock-appointment/reserved",
+                    "triMenu": [
+
+                    ]
+                },
+                {
+                    "id": 104,
+                    "monoMenuId": 0,
+                    "name": "Reserve Slot",
+                    "action": "/dock-appointment/reserve",
+                    "triMenu": [
+
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "name": "Instance Config",
+            "action": "/",
+            "diMenu": [{
+                    "id": 117,
+                    "monoMenuId": 0,
+                    "name": "Vendor Master",
+                    "action": "/",
+                    "triMenu": [{
+                            "id": 104,
+                            "name": "Vendor Config",
+                            "action": "/vendor/vendor-config",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 132,
+                            "name": "Vendor List",
+                            "action": "/vendor/vendor-list",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 133,
+                            "name": "Add Vendor",
+                            "action": "/vendor/add-vendor",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 118,
+                    "monoMenuId": 0,
+                    "name": "Dock Master",
+                    "action": "/",
+                    "triMenu": [{
+                            "id": 110,
+                            "name": "Assignment  ",
+                            "action": "/dock-assignment/dock-config",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 111,
+                            "name": "Appointment",
+                            "action": "/dock-appointment/appointment-config",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 112,
+                            "name": "Add Dock Config",
+                            "action": "/dock/dock-config",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 128,
+                            "name": "Add Dock",
+                            "action": "/dock/dock-add",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 129,
+                            "name": "Dock List",
+                            "action": "/dock/dock-list",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 119,
+                    "monoMenuId": 0,
+                    "name": "Inbound",
+                    "action": "/",
+                    "triMenu": [{
+                            "id": 105,
+                            "name": "Slotting",
+                            "action": "/inbound/slotting-upload",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 106,
+                            "name": "Norm",
+                            "action": "/inbound/norm-upload",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 107,
+                            "name": "Wildcard",
+                            "action": "/inbound/wildcards",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 108,
+                            "name": "Putaway Config",
+                            "action": "/inbound/putaway-configuration",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 120,
+                    "monoMenuId": 0,
+                    "name": "Vehicle Master",
+                    "action": "/",
+                    "triMenu": [{
+                            "id": 109,
+                            "name": "Vehicle Config",
+                            "action": "/vehicle/vehicleType-config",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 130,
+                            "name": "Vehicle Type List",
+                            "action": "/vehicle/vehicleType-list",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        },
+                        {
+                            "id": 131,
+                            "name": "Vehicle Type Add",
+                            "action": "/vehicle/vehicleType-add",
+                            "monoMenuId": 0,
+                            "diMenuId": 0
+                        }
+                    ]
+                },
+                {
+                    "id": 121,
+                    "monoMenuId": 0,
+                    "name": "QA",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 113,
+                        "name": "QA Config",
+                        "action": "/QA/receiving-config",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                },
+                {
+                    "id": 122,
+                    "monoMenuId": 0,
+                    "name": "Replen",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 114,
+                        "name": "Replen Config",
+                        "action": "/midbound/replen-configuration",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                },
+                {
+                    "id": 123,
+                    "monoMenuId": 0,
+                    "name": "Cycle Count",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 115,
+                        "name": "Cycle Count Config",
+                        "action": "/midbound/cycle-count-config",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                },
+                {
+                    "id": 124,
+                    "monoMenuId": 0,
+                    "name": "GRN",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 116,
+                        "name": "GRN Config",
+                        "action": "/inbound/grn-config",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                },
+                {
+                    "id": 125,
+                    "monoMenuId": 0,
+                    "name": "Structure",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 117,
+                        "name": "Bin Config",
+                        "action": "/config/upload-config",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                },
+                {
+                    "id": 126,
+                    "monoMenuId": 0,
+                    "name": "Data Validation",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 118,
+                        "name": "Validation Config",
+                        "action": "/validation/backend",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                },
+                {
+                    "id": 130,
+                    "monoMenuId": 0,
+                    "name": "Inventory",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 127,
+                        "name": "Inventory Config",
+                        "action": "/inbound/inventory-config",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "name": "App Config",
+            "action": "/",
+            "diMenu": [{
+                "id": 127,
+                "monoMenuId": 0,
+                "name": "Menu",
+                "action": "/",
+                "triMenu": [{
+                        "id": 119,
+                        "name": "Add Mono Menu",
+                        "action": "/menu/add-mono-menu",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    },
+                    {
+                        "id": 120,
+                        "name": "Edit Mono Menu",
+                        "action": "/menu/mono-menu-list",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    },
+                    {
+                        "id": 121,
+                        "name": "Add Di Menu",
+                        "action": "/menu/add-di-menu",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    },
+                    {
+                        "id": 122,
+                        "name": "Edit Di Menu",
+                        "action": "/menu/di-menu-list",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    },
+                    {
+                        "id": 123,
+                        "name": "Add Tri Menu",
+                        "action": "/menu/add-tri-menu",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    },
+                    {
+                        "id": 124,
+                        "name": "Edit Tri Menu",
+                        "action": "/menu/tri-menu-list",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }
+                ]
+            }]
+        },
+        {
+            "id": 91,
+            "name": "Dashboards",
+            "action": "/",
+            "diMenu": [{
+                    "id": 128,
+                    "monoMenuId": 0,
+                    "name": "Inventory ",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 125,
+                        "name": "Inventory Dashboard",
+                        "action": "/inbound/inventory-list",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                },
+                {
+                    "id": 129,
+                    "monoMenuId": 0,
+                    "name": "GRN ",
+                    "action": "/",
+                    "triMenu": [{
+                        "id": 126,
+                        "name": "GRN Details",
+                        "action": "/inbound/grn-list",
+                        "monoMenuId": 0,
+                        "diMenuId": 0
+                    }]
+                }
+            ]
+        }
+    ]
+}

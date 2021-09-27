@@ -1,0 +1,35 @@
+.matt-button-light {
+    color: #000;
+}
+
+button.mat-menu-item {
+    height: 35px;
+    line-height: 1.5em;
+}
+
+.main-menu {
+    width: 185px;
+    background: #fff;
+    height: 100vh;
+    position: fixed;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.main-menu button {
+    border-bottom: 1px solid #e2e1e094;
+}
+
+.main-menu button:hover {
+    background: #e2e1e094;
+}
+
+
+/* .menu-main:after {
+    font-family: "Font Awesome 5 Free" !important;
+    content: '\f0da' !important;
+    display: inline-block;
+    width: 1.3em;
+    color: gray;
+    font-size: 17px;
+    float: right;
+} */
